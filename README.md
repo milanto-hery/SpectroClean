@@ -18,7 +18,7 @@ pip install -e .
 
 Option B: install from GitHub (when published):
 ```bash
-pip install git+https://github.com/yourusername/SpectroClean.git
+pip install git+https://github.com/milanto-hery/SpectroClean.git
 ```
 
 ## Quick usage
@@ -42,5 +42,3 @@ pip install -r dev-requirements.txt
 pytest -q
 ```
 
-## Publishing
-See PUBLISH.md for step-by-step instructions to publish to TestPyPI and PyPI.
