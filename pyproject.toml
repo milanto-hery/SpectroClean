@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SpectroClean"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tiny utilities to standardize and normalize spectrograms for ML preprocessing"
 authors = [{ name = "Milanto" }]
 readme = "README.md"
