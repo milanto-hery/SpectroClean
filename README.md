@@ -11,14 +11,18 @@ SpectroClean is a tiny, dependency-light Python library to **clean, standardize,
 
 ## Installation
 
-Option A: install from local checkout (development):
+Install from PyPI:
+
 ```bash
-pip install -e .
+pip install spectroclean
 ```
 
-Option B: install from GitHub:
+Install from local checkout:
+
 ```bash
-pip install git+https://github.com/milanto-hery/SpectroClean.git
+git clone https://github.com/milanto-hery/SpectroClean.git
+cd SpectroClean
+pip install -e .
 ```
 
 ## Quick usage
@@ -31,14 +35,8 @@ clean = clean_spectrogram(raw, target_shape=(128,256), normalization='minmax')
 ```
 
 ## CLI
-After installation you can run:
+After installation, you can run:
 ```bash
 spectroclean path/to/spec.png --height 128 --width 256 --norm minmax
-```
-
-## Development & Tests
-```bash
-pip install -r dev-requirements.txt
-pytest -q
 ```
 
