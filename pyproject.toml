@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SpectroClean"
+version = "0.1.0"
+description = "Tiny utilities to standardize and normalize spectrograms for ML preprocessing"
+authors = [{ name = "Milanto" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20",
+    "Pillow>=8.0"
+]
+
+[project.scripts]
+spectroclean = "spectro_clean.cli:main"
