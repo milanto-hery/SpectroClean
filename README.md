@@ -16,7 +16,7 @@ Option A: install from local checkout (development):
 pip install -e .
 ```
 
-Option B: install from GitHub (when published):
+Option B: install from GitHub:
 ```bash
 pip install git+https://github.com/milanto-hery/SpectroClean.git
 ```
